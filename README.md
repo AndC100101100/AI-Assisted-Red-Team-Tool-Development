@@ -19,15 +19,15 @@ Vibe coding workshop — using AI (Google Antigravity / LLM of choice) to iterat
 │                      32GB RAM                           │
 │                                                         │
 │  ┌───────────────────────────────────────────────────┐  │
-│  │            Google Antigravity IDE                  │  │
-│  │         (AI-assisted development)                  │  │
-│  │                                                    │  │
+│  │            Google Antigravity IDE                 │  │
+│  │         (AI-assisted development)                 │  │
+│  │                                                   │  │
 │  │  Code written here → transferred to Parrot VM     │  │
 │  │  via shared folder / git / scp                    │  │
 │  └───────────────────────────────────────────────────┘  │
 │                                                         │
 │  VMware Workstation                                     │
-│  ┌──────────────────┐       ┌──────────────────────┐   │
+│  ┌───────────────────┐       ┌──────────────────────┐   │
 │  │   Parrot Sec VM   │       │   Windows 10 VM      │   │
 │  │   (Attacker)      │       │   (Target)           │   │
 │  │                   │       │                      │   │
@@ -36,10 +36,10 @@ Vibe coding workshop — using AI (Google Antigravity / LLM of choice) to iterat
 │  │ - Shellcode Loader│       │ - Payload execution  │   │
 │  │   Generator (app) │       │ - Agent callbacks    │   │
 │  │                   │       │                      │   │
-│  │ NIC 1: NAT       │       │ NIC 1: NAT          │   │
-│  │ NIC 2: VMnet1     │◄─────►│ NIC 2: VMnet1       │   │
-│  │  (Host-Only)      │       │  (Host-Only)        │   │
-│  └──────────────────┘       └──────────────────────┘   │
+│  │ NIC 1: NAT        │       │ NIC 1: NAT           │   │
+│  │ NIC 2: VMnet1     │◄─────►│ NIC 2: VMnet1        │   │
+│  │  (Host-Only)      │       │  (Host-Only)         │   │
+│  └───────────────────┘       └──────────────────────┘   │
 │                                                         │
 │         VMnet1 Host-Only Network (192.168.x.0/24)       │
 └─────────────────────────────────────────────────────────┘
