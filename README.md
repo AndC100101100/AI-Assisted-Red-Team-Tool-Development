@@ -1,4 +1,4 @@
-# SANS Workshop: AI-Assisted Shellcode Loader Generator
+# [SANS Workshop: AI-Assisted Shellcode Loader Generator](https://www.sans.org/webcasts/vibe-coding-evasion-framework-ai-assisted-red-team-tool-development)
 
 Vibe coding workshop — using AI (Google Antigravity / LLM of choice) to iteratively build a Dockerized shellcode loader generator with configurable evasion techniques. Follows the **"think then act"** methodology: PRD first, then phase-by-phase implementation with verification at each step.
 
